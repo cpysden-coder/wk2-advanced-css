@@ -1,18 +1,35 @@
 body {
-    background: lightcoral;
+    background: #F7DE85;
+    Font-Family: 'Raleway', sans-serif;
+    Font-Size: 15px;
 }
 
 header {
     padding: 40px;
     text-align: center;
-    background: #13293d;
+    background: #75621C;
     color: #fff;
 }
-  
+
+#page-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    Font-Family: 'Raleway', Sans-Serif;
+    Font-Size: 44px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
 nav {
+    padding-right: 20px;
     display: flex;
     justify-content: right;
-    background: lightseagreen;
+    background: #F5CD3A;
 }
 
 a {
@@ -30,6 +47,15 @@ a {
 
 .hero ul {
     padding-left: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+
+#portfolio-examples {
+    padding-left: 30px;
+    padding-top: 20px;
+    background: #F5CD3A;
+    padding-bottom: 20px;
 }
 
 main {
@@ -46,13 +72,16 @@ main {
     padding: 10px;
     text-align: left;
     border-style: solid;
-    border-width: 1px;
+    border-width: 10px;
+    /* margin: 5px; */
 }
   
 .card header {
-    padding: 20px;
-    background: #13293d;
+    padding-top: 10px;
+    padding-left: 20px;
+    background: #75621C;
     color: #fff;
+    font-size: 20px;
     text-align: left;
 }
 
@@ -61,8 +90,23 @@ main {
 
 }
 
+.repo-link {
+    position: relative;
+    top: -30px;
+    color: white;
+    padding-left: 20px;
+}
+
 footer {
     /* position: fixed; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    background: #F5CD3A;
+}
+
+footer a {
+    padding-top: 10px;
 }
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
