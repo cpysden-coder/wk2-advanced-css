@@ -2,4 +2,4 @@
 
 Webpage URL https://cpysden-coder.github.io/wk2-advanced-css/ 
 
-What to expect: <img width="987" alt="Screen Shot 2021-09-20 at 9 05 34 PM" src="https://user-images.githubusercontent.com/65201372/134110037-3c45945f-583f-4cde-9865-893d81f1fdbe.png">
+What to expect: <img width="1021" alt="Screen Shot 2021-09-21 at 9 25 58 AM" src="https://user-images.githubusercontent.com/65201372/134209637-2b31be68-df24-422f-b88b-aca023dd3860.png">
