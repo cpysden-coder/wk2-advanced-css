@@ -4,6 +4,8 @@ body {
     Font-Size: 15px;
 }
 
+/* header and nav */
+
 header {
     padding: 40px;
     text-align: center;
@@ -74,6 +76,8 @@ main {
     flex-wrap: wrap;
     margin: 30px;
 }
+
+/* work cards section */
 
 .card {
     display: flex;
