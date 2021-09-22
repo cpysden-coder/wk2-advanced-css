@@ -1,5 +1,5 @@
 body {
-    background: #F7DE85;
+    background: #7AD9E6;
     Font-Family: 'Raleway', sans-serif;
     Font-Size: 15px;
 }
@@ -7,7 +7,7 @@ body {
 header {
     padding: 40px;
     text-align: center;
-    background: #75621C;
+    background: #095761;
     color: #fff;
 }
 
@@ -29,7 +29,7 @@ nav {
     padding-right: 20px;
     display: flex;
     justify-content: right;
-    background: #F5CD3A;
+    background: #14C9E0;
     /* position: fixed; */
 }
 
@@ -38,7 +38,6 @@ nav a {
 }
 
 nav a:hover {
-    border: #75621C;
     color:aqua;
 }
 
@@ -46,7 +45,7 @@ nav a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
-    background: #F5CD3A;
+    background: #14C9E0;
 }
 
 .hero ul {
@@ -63,7 +62,7 @@ nav a:hover {
 #portfolio-examples {
     padding-left: 30px;
     padding-top: 20px;
-    background: #F5CD3A;
+    background: #14C9E0;
     padding-bottom: 20px;
 }
 
@@ -81,7 +80,7 @@ main {
     flex: 1 0 100%;
     padding: 10px;
     text-align: left;
-    border-color: #75621C;
+    border-color: #095761;
     border-style: solid ;
     border-width: 10px;
     min-height: 300px;
@@ -90,8 +89,8 @@ main {
   
 .work-title {
     padding: 10px 0px 20px 20px;
-    background: #75621C;
-    color:#75621C;
+    background: #095761;
+    color:#095761;
     /* font-size: 20px; */
     display: flex;
     align-items: flex-end;
@@ -102,9 +101,9 @@ main {
 }
 
 .work-title div {
-    background-color: #F5CD3A;
+    background-color: #14C9E0;
     padding:5px;
-    color: #75621C;
+    color: #095761;
 }
 
 .image-splash {
@@ -142,7 +141,7 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
-    background: #F5CD3A;
+    background: #14C9E0;
 }
 
 footer a {
