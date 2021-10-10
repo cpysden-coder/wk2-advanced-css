@@ -4,10 +4,16 @@ Webpage URL https://cpysden-coder.github.io/wk2-advanced-css/
 
 What to expect: <img width="1021" alt="Screen Shot 2021-09-21 at 9 25 58 AM" src="https://user-images.githubusercontent.com/65201372/134209637-2b31be68-df24-422f-b88b-aca023dd3860.png">
 
+Recent updates:
+- changed to grid layout
+- added profile photo
+- color theme changes
+
 Things to improve upon:
-- Putting working titles on the left hand side rather than on top of a section
+- Featured work row should stand out more
+- About me text
 
 - Really understanding the flexbox model
-    - why would adding a margin stop the media query from working
-    - how can I get a space between the work cards
+    - consistent image sizing
+    - responsive grid layout
     - getting flex to work in nav and footer consistently

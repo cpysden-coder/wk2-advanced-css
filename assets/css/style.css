@@ -1,5 +1,5 @@
 body {
-    background: #7AD9E6;
+    background-color: rgb(207,232,220);
     Font-Family: 'Raleway', sans-serif;
     Font-Size: 15px;
 }
@@ -9,7 +9,6 @@ body {
 header {
     padding: 40px;
     text-align: center;
-    background: #095761;
     color: #fff;
 }
 
@@ -19,21 +18,33 @@ header {
 }
 
 h1 {
-    Font-Family: 'Raleway', Sans-Serif;
     Font-Size: 44px;
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 25px;
+    /* background-color:blanchedalmond;
+    width: 50%;
+    text-align: center; */
 }
 
-nav {
+.card-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color:blanchedalmond; */
+    width: 30%;
+    line-height: 1.5em;;
+    text-align: center;
+}
+
+/* nav {
     padding-right: 20px;
     display: flex;
     justify-content: right;
-    background: #14C9E0;
+    background: #14C9E0; */
     /* position: fixed; */
-}
+/* } */
 
 nav a {
     padding-left: 10px;
@@ -45,20 +56,13 @@ nav a:hover {
     color:aqua;
 }
 
-#about-me {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    background: #14C9E0;
-}
-
-.hero ul {
+ul {
     padding-left: 50px;
     padding-bottom: 20px;
     line-height: 1.5em;
 }
 
-.hero p {
+p {
     padding-top: 20px;
     padding-left: 30px;
 }
@@ -66,79 +70,144 @@ nav a:hover {
 #portfolio-examples {
     padding-left: 30px;
     padding-top: 20px;
-    background: #14C9E0;
+    background: #4a5f62;
     padding-bottom: 20px;
 }
 
 main {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     margin: 30px;
+}
+header, footer {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(110, 150, 131);
+    border: 2px solid rgb(79,185,227);
+}
+
+aside {
+    border-right: 1px solid #999;
 }
 
 /* work cards section */
 
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+}
+
+footer {
+    grid-column: 1 / 13;
+    grid-row: 6;
+}
+
+#headshot {
+    border-radius: 10% 10% 10% 10%;
+}
+
 .card {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* justify-content: ; */
-    flex: 1 0 100%;
-    padding: 10px;
+    /* flex: 1 0 100%; */
+    padding: 2%;
     text-align: left;
-    border-color: #095761;
+    border-color: black;
     border-style: solid ;
-    border-width: 10px;
+    border-width: 2px;
     min-height: 300px;
     /* margin: 5px; */
 }
   
 .work-title {
     padding: 10px 0px 20px 20px;
-    background: #095761;
-    color:#095761;
-    /* font-size: 20px; */
-    display: flex;
-    align-items: flex-end;
+    background-color: #095761;
+    color:#f70d09;
+    font-size: 20px;
+    /* display: flex;
+    align-items: flex-end; */
 }
 
 .work-title:hover {
     opacity: 0.75;
 }
 
-.work-title div {
-    background-color: #14C9E0;
-    padding:5px;
-    color: #095761;
-}
+
 
 .image-splash {
     background-image: url('../images/splash-page.png');
-    height: 100%;
+    height: 90%;
 }
 
 .image-firstbc {
     background-image: url('../images/image-firstbc.png');
-    height: 100%;
+    height: 90%;
 }
 
 .image-u2mini {
     background-image: url('../images/u2mini.png');
-    height: 100%;
+    height: 90%;
 }
 
 .image-horiseon {
     background-image: url('../images/Horiseon.png');
-    height: 100%;
+    height: 90%;
 }
 
 .image-future {
     background-image: url('../images/future.jpg');
-    height: 100%;
+    height: 90%;
 }
 
 .card img {
-    width: 100%;
+    width: 90%;
 
 }
 
@@ -147,7 +216,7 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
-    background: #14C9E0;
+    color: white;
 }
 
 footer a {
@@ -159,7 +228,7 @@ footer a {
 @media screen and (min-width: 768px) {
 /* on tablets, set columns to only be 50% of the width and not grow */
 .card {
-    flex: 1 0 50%;
-    max-width: 50%;
+    /* flex: 1 0 50%;
+    max-width: 50%; */
 }
 }
