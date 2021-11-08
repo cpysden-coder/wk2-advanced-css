@@ -176,7 +176,9 @@ footer {
     opacity: 0.75;
 }
 
-
+.cover {
+    object-fit: cover;
+}
 
 .image-splash {
     background-image: url('../images/splash-page.png');
