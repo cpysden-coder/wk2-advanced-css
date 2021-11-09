@@ -3,7 +3,8 @@
 }
 
 #aside:not(.browser-default) {
-    background-color: #ee6e73;
+    background-color: #dce775;
+    opacity: 75%;
     min-height: 100vh;
 }
 
