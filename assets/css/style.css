@@ -1,5 +1,16 @@
+#navbar:not(.browser-default) {
+    background-color: #dce775;
+    opacity: 100%;
+}
+
+p {
+    font-size: 16px;
+}
+
 #ul-hero:not(.browser-default) li {
     list-style-type: disc;
+    font-size: 16px;
+    margin-left: 20px;
 }
 
 #aside:not(.browser-default) {
@@ -7,7 +18,3 @@
     opacity: 75%;
     min-height: 100vh;
 }
-
-/* #ul-hero {
-    list-style-type: square;
-  } */
